@@ -32,31 +32,37 @@ body {
 }
 .top-header{
 	width: 100%;
-	background-image: url(../img/header2.jpg);
+	height: 350px;
+	background-image: url(../img/header31.jpg);
+}
+.top-header h1{
+	font-size: 56px;
+	padding-bottom: 160px;
+	margin: 0;
+	color: #fff;
+	line-height: 1.2em;
 }
 .toplist-header{
-	background-color: #1A3838; 
+	background-color: #262e53; 
 	height: 40px;
+	padding: 7px 0;
 }
 .main-menu{
 	height: 50px;
-	background-color: #7b868a;
+	background-color: #fff;
 	margin-bottom: 30px;
-	opacity: 0.6;
-}
-.header-img{
-	height: 300px;
+	opacity: 0.75;
 }
 .blog-item img{
-	max-width: 100%;
-	margin:20px;
+	max-width: 88%;
+	margin: 20px;
 }
 .content-text{
 	margin-top: 20px;
-	background-color: #e9e9e9;
+	background-color: #f5f5f5;
 }
 aside{
-	background-color: #e9e9e9;
+	background-color: #f5f5f5;
 	margin-top: 20px;
 	padding: 20px 20px 20px 40px;
 }
@@ -65,4 +71,26 @@ aside{
 }
 .blog-item p{
 	padding: 15px 20px 0 5px;
+}
+.top-links{
+	display: inline-block;
+	vertical-align: middle;
+	color: #8c9b9b;
+}
+.top-links a{
+	color: #fff;
+	opacity: 0.5;
+}
+.soc-buttons a:hover, .top-links a:hover{
+	opacity: 1;
+}
+.soc-buttons{
+	float: right;
+	margin-top: -3px;
+}
+.soc-buttons > a{
+	font-size: 22px;
+	color: #fff;
+	margin-left: 8px;
+	opacity: 0.5;
 }
