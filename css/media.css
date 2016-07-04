@@ -13,10 +13,38 @@
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
 
+	.top-links{
+		display: none;
+		position: absolute;
+		margin-top: 35px;
+		background-color: #262e53;
+		padding: 10px;
+		z-index: 9;
+	}
+	.main-menu ul{
+		display: none;
+		position: absolute;
+		margin-top: 40px;
+		z-index: 200;
+		width: 100%;
+		overflow: visible;
+	}
+	.main-menu ul li{
+		display: block;
+		width: 100%;
+		overflow: visible;
+	}
+	.main-contant{
+		overflow: hidden;
+	}
+
+
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
+
+
 
 }
 
@@ -41,10 +69,18 @@
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
 
+	.top-links{
+		display: inline-block  !important;
+	}
+	.main-menu ul{
+		display: block !important;
+	}
+
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
+
 
 }
 
