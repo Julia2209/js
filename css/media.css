@@ -2,6 +2,10 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
+	.main-menu{
+		transition: 4s;
+		opacity: 0.75;
+	}
 }
 
 /* Medium Devices, Desktops */
@@ -36,6 +40,10 @@
 	}
 	.main-contant{
 		overflow: hidden;
+	}
+	.main-menu{
+		transition: 4s;
+		opacity: 1;
 	}
 
 

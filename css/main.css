@@ -75,7 +75,7 @@ body {
 	height: 50px;
 	background-color: #fff;
 	margin-bottom: 30px;
-	
+	opacity: 0.75;
 }
 .main-menu ul{
 	margin: 0;
