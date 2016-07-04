@@ -2,14 +2,25 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
-	.main-menu{
+	.main-menu, .top-header h1{
 		transition: 4s;
 		opacity: 0.75;
+	}
+	aside, .content-text{
+		transition: 4s;
+		background-color: #c1c4cc;
 	}
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
+
+	.img-wrap{
+		text-align: center;
+	}
+	.img-wrap img{
+		margin: 10px;
+	}
 
 
 }
@@ -29,7 +40,7 @@
 		display: none;
 		position: absolute;
 		margin-top: 40px;
-		z-index: 200;
+		z-index: 10;
 		width: 100%;
 		overflow: visible;
 	}
@@ -41,9 +52,25 @@
 	.main-contant{
 		overflow: hidden;
 	}
-	.main-menu{
+	.main-menu, .top-header h1{
 		transition: 4s;
 		opacity: 1;
+	}
+	aside, .content-text{
+		transition: 4s;
+		background-color: #fff;
+	}
+	.blog-item p{
+		padding-left: 20px;
+	}
+	.top-header h1{
+		text-align: center;
+	}
+	.img-wrap{
+		text-align: center;
+	}
+	.img-wrap img{
+		margin: 10px;
 	}
 
 
