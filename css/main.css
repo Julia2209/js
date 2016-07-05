@@ -27,6 +27,7 @@ body textarea:required:valid {
 	
 }
 body {
+	background-color: #262e53;
 	font-family: "RobotoRegular", sans-serif;
 	font-size: 16px;
 }
@@ -72,17 +73,27 @@ body {
 	opacity: 0.8;
 	text-shadow: 0 0 8px #000;
 }
+.hidder-img{
+	margin-top: 40px;
+	display: none;
+	position: absolute;
+	height: 310px;
+}
 .toplist-header{
+	position: relative;
+	z-index: 5;
 	background-color: #262e53; 
 	height: 40px;
 	padding: 7px 0;
 }
 .main-menu{
+	z-index: 5;
 	height: 50px;
 	background-color: #fff;
 	margin-bottom: 30px;
 	opacity: 0.75;
 	box-shadow: 0 0 10px 0 #000;
+	
 }
 .main-menu ul{
 	margin: 0;
